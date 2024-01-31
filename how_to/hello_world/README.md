@@ -1,5 +1,7 @@
 ## Explicação do código
 
+A famosa tradição do "Hello, world!" ao aprender uma nova linguagem. Vamos tentar explorar alguns conceitos como bibliotecas, função **"main"** e a saída de dados com "**cout**" 
+
 #### BIBLIOTECAS
 ```C++
 #include <iostream>
@@ -48,7 +50,7 @@ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:61:18: note: 'std::cout' dec
 ```C++
 std::cout << "Hello, world!" << endl;
 ```
-"cout" junto de "<<" é usado para saida de dados, pra que já programa, é semelhante a:
+"cout" junto de "<<" (conhecido como operador de inserção) é usado para saida de dados, como mostrado, estamos inserindo a string "Hello world" no fluxo de saída "**cout**". Pra quem já programa, é semelhante a:
 - Python: print("Hello, world")
 - Java: System.out.println("Hello, world");
 
