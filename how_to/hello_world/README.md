@@ -7,10 +7,10 @@ A famosa tradição do "Hello, world!" ao aprender uma nova linguagem. Vamos ten
 #include <iostream>
 ```
 **__<iostream>__** é a biblioteca padrão em C++ (input/output stream) que fornece a entrada e saída de dados. As principais classes fornecidas (você verá **cout** logo logo) são:
-- cin: entrada de dados
-- cout: saida de dados
-- cerr: exibir mensagens de erro
-- clog: mensagens de log
+- **__cin__**: entrada de dados
+- **__cout__**: saida de dados
+- **__cerr__**: exibir mensagens de erro
+- **__clog__**: mensagens de log
 
 #### FUNÇÕES
 ```C++
@@ -50,11 +50,11 @@ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:61:18: note: 'std::cout' dec
 ```C++
 std::cout << "Hello, world!" << endl;
 ```
-"cout" junto de "<<" (conhecido como operador de inserção) é usado para saida de dados, como mostrado, estamos inserindo a string "Hello world" no fluxo de saída "**cout**". Pra quem já programa, é semelhante a:
+"**__cout__**" junto de "**__<<"__** (conhecido como operador de inserção) é usado para saida de dados, como mostrado, estamos inserindo a string "Hello world" no fluxo de saída "__**cout**__". Pra quem já programa, é semelhante a:
 - Python: print("Hello, world")
 - Java: System.out.print("Hello, world");
 
-E a instrução endl é usada para inserir uma nova linha no fluxo de saída e, de forma prática, significa "fim da linha", semelhante a "system.out.println()" em Java.
+E a instrução "**__endl__**" é usada para inserir uma nova linha no fluxo de saída e, de forma prática, significa "fim da linha", semelhante a "**__system.out.println()__**" em Java.
 
 Além disso, utilizando "using namespace std" abaixo da biblioteca, você pode usar "cout" e outras coisas da biblioteca padrão diretamente, sem utilizar "std::". Compare o exemplo abaixo com o código __**"hello_world.cpp"**__.
 ```C++
