@@ -56,7 +56,7 @@ std::cout << "Hello, world!" << endl;
 
 E a instrução endl é usada para inserir uma nova linha no fluxo de saída e, de forma prática, significa "fim da linha", semelhante a "system.out.println()" em Java.
 
-Além disso, utilizando "using namespace std" abaixo da biblioteca, você pode usar "cout" e outras coisas da biblioteca padrão diretamente, sem utilizar "std::".
+Além disso, utilizando "using namespace std" abaixo da biblioteca, você pode usar "cout" e outras coisas da biblioteca padrão diretamente, sem utilizar "std::". Compare o exemplo abaixo com o código __**"hello_world.cpp"**__.
 ```C++
 #import <iostream>
 using namespace std;
