@@ -52,9 +52,11 @@ std::cout << "Hello, world!" << endl;
 ```
 "cout" junto de "<<" (conhecido como operador de inserção) é usado para saida de dados, como mostrado, estamos inserindo a string "Hello world" no fluxo de saída "**cout**". Pra quem já programa, é semelhante a:
 - Python: print("Hello, world")
-- Java: System.out.println("Hello, world");
+- Java: System.out.print("Hello, world");
 
-Utilizando "using namespace std" abaixo da biblioteca, você pode usar "cout" e outras coisas sem utilizar "std::" junto
+E a instrução endl é usada para inserir uma nova linha no fluxo de saída e, de forma prática, significa "fim da linha", semelhante a "system.out.println()" em Java.
+
+Além disso, utilizando "using namespace std" abaixo da biblioteca, você pode usar "cout" e outras coisas da biblioteca padrão diretamente, sem utilizar "std::".
 ```C++
 #import <iostream>
 using namespace std;
