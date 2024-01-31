@@ -4,10 +4,18 @@
 ```C++
 #include <iostream>
 ```
+**__<iostream>__** é a biblioteca padrão em C++ (input/output stream) que fornece a entrada e saída de dados. As principais classes fornecidas (você verá **cout** logo logo) são:
+- cin: entrada de dados
+- cout: saida de dados
+- cerr: exibir mensagens de erro
+- clog: mensagens de log
 
 #### FUNÇÕES
 ```C++
 int main () {
+    /*
+    Código
+    */
     return 0;
 }
 ```
@@ -34,7 +42,7 @@ In file included from .\hello_world.cpp:1:0:
 c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:61:18: note: 'std::cout' declared here
    extern ostream cout;  /// Linked to standard output
 ```
-
+- Return 0: indica que o programa foi executado com sucesso :)
 
 #### COUT
 ```C++
@@ -44,10 +52,14 @@ std::cout << "Hello, world!" << endl;
 - Python: print("Hello, world")
 - Java: System.out.println("Hello, world");
 
-Utilizando "using namespace std", você pode usar "cout" e outras coisas sem utilizar "std::" junto
+Utilizando "using namespace std" abaixo da biblioteca, você pode usar "cout" e outras coisas sem utilizar "std::" junto
 ```C++
-cout << "Hello, world!" << std::endl;
-```
+#import <iostream>
+using namespace std;
 
-## Problemas em utilizar "using namespace std"
+int main() {
+    cout << "Hello, world!" << endl;
+    return 0;
+}
+```
 
