@@ -2,24 +2,29 @@
 using namespace std;
 
 int main(){
+    
+    // Exemplo de declaração de variáveis usando modificadores de tipos
+    int a = 1;          // Tipo: int (4 bytes)
+    short int b = 1;     // Tipo: short int (2 bytes)
+    long int c = 1;      // Tipo: long int (4 bytes)
 
-    int a = 1; //4 bytes
-    short int b = 1; //2 bytes
-    long int c = 1; // 4 bytes
+    // Exemplo de inicialização de variáveis com valores específicos
+    int a2 = 0;          // Inicializado com 0
+    signed int b2 = -10;  // Inicializado com -10 (pode ser negativo)
+    unsigned int c2 = -10; // Inicializado com -10 (tratado como número não negativo)
 
-    int a2 = 0;
-    signed int b2 = -10;
-    unsigned int c2 = -10;
+    // Exibição do tamanho e valor das variáveis
+    cout << "Tamanho e valor de 'a': " << sizeof(a) << " bytes - " << a << endl;
+    cout << "Tamanho e valor de 'b': " << sizeof(b) << " bytes - " << b << endl;
+    cout << "Tamanho e valor de 'c': " << sizeof(c) << " bytes - " << c << endl;
 
-    cout << sizeof(a) << " - " << a2 << endl;
-    cout << sizeof(b) << " - " << b2 << endl;
-    cout << sizeof(c) << " - " << c2 << endl;
+    // Exemplo de manipulação de caracteres
+    char caractere = 200;   // Pode armazenar valores de -128 a 127 (signed char)
+    char caractere2 = -127; // Pode armazenar valores de -128 a 127 (signed char)
 
-    char caractere = 200;
-    char caractere2 = -127;
-
-    cout << sizeof(caractere) << " - " << caractere << endl;
-    cout << sizeof(caractere2) << " - " << caractere2 << endl;
+    // Exibição do tamanho e valor dos caracteres
+    cout << "Tamanho e valor de 'caractere': " << sizeof(caractere) << " byte - " << static_cast<int>(caractere) << endl;
+    cout << "Tamanho e valor de 'caractere2': " << sizeof(caractere2) << " byte - " << static_cast<int>(caractere2) << endl;
 
     return 0;
 }
