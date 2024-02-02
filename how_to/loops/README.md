@@ -32,7 +32,12 @@ O valor de i =  2
 O valor de i =  3...
 
 ```
-Até que a condição seja falsa, sendo `x maior do que 10` e acontece a finalização do loop. 
+Até que a condição seja falsa, sendo `x maior do que 10` e acontece a finalização do loop.
+
+Um exemplo prático é uma tabuada, mostrado em [arquivo tabuada][tabuada-link].
+
+[tabuada-link]: exercises/5.%20tabuada.cpp
+
 
 Em outras palavras: Se X for menor que 10, adicione 1 a variavel x (x + 1), se X for maior que 10, encerre esse loop.
 

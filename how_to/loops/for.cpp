@@ -7,4 +7,11 @@ int main(){
         cout << "O valor de x = " << x << endl;
     }
 
+/* Como utilizar
+
+    for ( inicialização ; condição ; incremento) {
+        // bloco de código
+    }
+
+*/
 }
