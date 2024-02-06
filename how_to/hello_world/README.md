@@ -60,6 +60,8 @@ Além disso, utilizando "using namespace std" abaixo da biblioteca, você pode u
 ```C++
 #import <iostream>
 using namespace std;
+// posso omitir o uso de std:: em cout
+// não é uma boa prática, mas como iniciante dá pra deixar passar por simplicidade
 
 int main() {
     cout << "Hello, world!" << endl;
