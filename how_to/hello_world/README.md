@@ -23,7 +23,7 @@ int main () {
 ```
 É a função principal do programa, onde a execução começa, além disso, temos
 - __**INT**__: tipo de dado que a função retorna, **INT** significa números inteiros (-3, -2, -1, 0, 1, 2, 3...)
-- __**MAIN**__: nome da função (você pode altera-lo, mas não é uma prática comum)
+- __**MAIN**__: nome da função
 - __**( )**__: Argumentos da função
 - __**{ }**__: Bloco de código associado a função (todo código que está dentro de { } pertence a função), por exemplo:
 ```C++
